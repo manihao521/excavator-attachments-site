@@ -189,9 +189,10 @@ a { color: inherit; }
   overflow: hidden;
   color: #fff;
   background:
-    linear-gradient(90deg, rgba(2, 22, 39, .98) 0%, rgba(5, 41, 70, .92) 42%, rgba(5, 41, 70, .42) 70%, rgba(5, 41, 70, .22) 100%),
-    radial-gradient(circle at 80% 24%, rgba(246, 178, 26, .26), transparent 26%),
-    linear-gradient(135deg, #052946, #081f34 48%, #b8c3ca);
+    linear-gradient(90deg, rgba(2, 18, 32, .96) 0%, rgba(2, 18, 32, .84) 34%, rgba(2, 18, 32, .28) 62%, rgba(2, 18, 32, .08) 100%),
+    linear-gradient(180deg, rgba(2, 18, 32, .08), rgba(2, 18, 32, .38)),
+    url("/assets/images/hero-demolition-banner.png") center center / cover no-repeat;
+  background-color: var(--navy-2);
 }
 
 .home-hero::after {
@@ -297,13 +298,7 @@ a { color: inherit; }
 }
 
 .hero-machine {
-  position: relative;
-  z-index: 1;
-  min-height: 560px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  padding: 42px clamp(18px, 4vw, 54px) 0 0;
+  display: none;
 }
 
 .hero-image {
