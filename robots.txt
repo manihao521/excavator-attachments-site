@@ -1,3 +1,3 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
-Sitemap: https://www.yourdomain.com/sitemap.xml
+Sitemap: https://excavator-attachments.pages.dev/sitemap.xml
