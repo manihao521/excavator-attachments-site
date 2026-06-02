@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#8f9aa2"/>
+      <stop offset=".45" stop-color="#d7dde2"/>
+      <stop offset="1" stop-color="#324454"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b1621"/>
+      <stop offset=".55" stop-color="#2d3f50"/>
+      <stop offset="1" stop-color="#111820"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="url(#sky)"/>
+  <path d="M600 165 L680 95 L745 218 L810 155 L900 260 L900 520 L552 520 Z" fill="#9ca5ac"/>
+  <path d="M0 385 C130 348 200 410 320 374 C474 328 610 388 900 328 L900 520 L0 520 Z" fill="#56606a"/>
+  <g transform="translate(120 225)">
+    <rect x="55" y="122" width="250" height="42" rx="20" fill="#111820"/>
+    <circle cx="95" cy="165" r="34" fill="#07101a"/>
+    <circle cx="260" cy="165" r="34" fill="#07101a"/>
+    <path d="M95 45 L220 45 L270 115 L70 115 Z" fill="#f2b51f"/>
+    <path d="M125 58 L196 58 L224 105 L112 105 Z" fill="#17324b"/>
+    <path d="M240 60 L392 -15 L418 16 L280 115 Z" fill="#f2b51f"/>
+    <path d="M395 -10 L560 85 L546 118 L408 20 Z" fill="#d99a0a"/>
+    <path d="M530 106 L610 214" stroke="#172231" stroke-width="34" stroke-linecap="round"/>
+    <path d="M590 198 L635 270 L602 285 L552 222 Z" fill="url(#steel)"/>
+  </g>
+  <g fill="#3a424b" opacity=".9">
+    <path d="M620 430 L650 365 L690 430 Z"/>
+    <path d="M690 430 L720 385 L760 430 Z"/>
+    <path d="M760 430 L820 350 L870 430 Z"/>
+  </g>
+</svg>
