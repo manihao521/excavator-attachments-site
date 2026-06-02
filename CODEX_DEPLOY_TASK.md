@@ -51,8 +51,8 @@ npx wrangler pages deploy . --project-name=<your-pages-project-name> --branch=ma
 Replace placeholders across the site:
 - `YourBrand Attachments`
 - `https://www.yourdomain.com`
-- `sales@yourdomain.com`
-- `+86-000-0000-0000`
+- `manihao521@gmail.com`
+- `+8613370928803`
 - `https://formspree.io/f/your-form-id`
 
 Then re-run deployment.

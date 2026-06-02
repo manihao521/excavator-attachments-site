@@ -5,8 +5,8 @@
 
 - 品牌名：YourBrand Attachments
 - 域名：https://www.yourdomain.com
-- 邮箱：sales@yourdomain.com
-- WhatsApp：+86-000-0000-0000
+- 邮箱：manihao521@gmail.com
+- WhatsApp：+8613370928803
 - 表单地址：https://formspree.io/f/your-form-id
 
 ## 2. GitHub Secrets

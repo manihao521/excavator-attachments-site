@@ -8,8 +8,8 @@ Search and replace these values across files:
 
 - `YourBrand Attachments` → your real brand name
 - `https://www.yourdomain.com` → your domain, e.g. `https://www.example.com`
-- `sales@yourdomain.com` → your business email
-- `+86-000-0000-0000` → your WhatsApp number
+- `manihao521@gmail.com` → your business email
+- `+8613370928803` → your WhatsApp number
 - `https://formspree.io/f/your-form-id` → your actual form endpoint
 
 ## 2. Deploy on Cloudflare Pages
