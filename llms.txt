@@ -4,6 +4,13 @@ Excavator Attachments for Demolition, Piling and Earthmoving
 
 This website supplies excavator attachments for overseas contractors, dealers and rental companies.
 
+## Multilingual homepages
+- English: https://excavator-attachments.pages.dev/
+- Spanish: https://excavator-attachments.pages.dev/es/
+- French: https://excavator-attachments.pages.dev/fr/
+- Russian: https://excavator-attachments.pages.dev/ru/
+- Arabic: https://excavator-attachments.pages.dev/ar/
+
 ## Core product pages
 - Hydraulic Breakers: https://excavator-attachments.pages.dev/products/hydraulic-breaker/
 - Quick Couplers: https://excavator-attachments.pages.dev/products/quick-hitch/
