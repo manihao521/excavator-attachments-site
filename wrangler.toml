@@ -1,0 +1,6 @@
+# Cloudflare Pages direct upload configuration
+# Deployment command:
+#   npx wrangler pages deploy . --project-name=<your-pages-project-name> --branch=main
+#
+# Static files are served from this repository root.
+# Keep this project as a prebuilt/static site unless you later migrate to Astro/Next.js.

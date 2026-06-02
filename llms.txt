@@ -1,0 +1,16 @@
+# YourBrand Attachments
+
+Excavator Attachments for Demolition, Piling and Earthmoving
+
+This website supplies excavator attachments for overseas contractors, dealers and rental companies.
+
+## Core product pages
+- Hydraulic Breakers: https://www.yourdomain.com/products/hydraulic-breaker/
+- Quick Couplers: https://www.yourdomain.com/products/quick-hitch/
+- Hydraulic Pile Hammers: https://www.yourdomain.com/products/hydraulic-pile-hammer/
+- Demolition Shears: https://www.yourdomain.com/products/hydraulic-shear/
+- Hydraulic Pulverizers: https://www.yourdomain.com/products/hydraulic-pulverizer/
+- Hydraulic Compactors: https://www.yourdomain.com/products/hydraulic-compactor/
+
+## Buyer information needed
+Please provide excavator model, carrier weight, pin diameter, arm width, center distance, working condition, quantity and destination country for a quote.

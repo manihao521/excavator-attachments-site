@@ -1,0 +1,14 @@
+{
+  "name": "excavator-attachments-b2b-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static B2B inquiry website for excavator attachments and piling/demolition tools.",
+  "scripts": {
+    "serve": "npx serve .",
+    "deploy": "wrangler pages deploy . --project-name=$CLOUDFLARE_PAGES_PROJECT --branch=main"
+  },
+  "devDependencies": {
+    "wrangler": "latest",
+    "serve": "latest"
+  }
+}
