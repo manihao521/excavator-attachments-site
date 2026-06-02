@@ -9,8 +9,13 @@ This website supplies excavator attachments for overseas contractors, dealers an
 - Quick Couplers: https://excavator-attachments.pages.dev/products/quick-hitch/
 - Hydraulic Pile Hammers: https://excavator-attachments.pages.dev/products/hydraulic-pile-hammer/
 - Demolition Shears: https://excavator-attachments.pages.dev/products/hydraulic-shear/
+- Excavator Buckets: https://excavator-attachments.pages.dev/products/excavator-buckets/
 - Hydraulic Pulverizers: https://excavator-attachments.pages.dev/products/hydraulic-pulverizer/
 - Hydraulic Compactors: https://excavator-attachments.pages.dev/products/hydraulic-compactor/
+- Grapples: https://excavator-attachments.pages.dev/products/grapples/
+- Rippers: https://excavator-attachments.pages.dev/products/rippers/
+- Vibro Hammers: https://excavator-attachments.pages.dev/products/vibro-hammers/
+- Plate Compactors: https://excavator-attachments.pages.dev/products/plate-compactors/
 
 ## Buyer information needed
 Please provide excavator model, carrier weight, pin diameter, arm width, center distance, working condition, quantity and destination country for a quote.
