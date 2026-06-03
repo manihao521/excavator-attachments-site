@@ -704,13 +704,28 @@ a { color: inherit; }
     linear-gradient(90deg, rgba(0, 25, 47, .35), rgba(0, 25, 47, .02));
 }
 
-.application-grid strong {
+.application-label {
   position: absolute;
-  left: 16px;
-  right: 16px;
-  bottom: 14px;
+  left: 14px;
+  right: 14px;
+  bottom: 13px;
   z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.application-icon {
+  flex: 0 0 28px;
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, .45));
+}
+
+.application-grid strong {
   font-size: 15px;
+  line-height: 1.08;
   text-transform: uppercase;
 }
 
