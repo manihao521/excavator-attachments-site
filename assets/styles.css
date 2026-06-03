@@ -851,11 +851,11 @@ a { color: inherit; }
 .quality-section {
   display: grid;
   grid-template-columns: .95fr 1.05fr;
-  gap: 34px;
+  gap: 28px;
   align-items: center;
   max-width: var(--max);
   margin: 0 auto;
-  padding: 42px 24px;
+  padding: 30px 24px;
 }
 
 .factory-placeholder {
@@ -875,12 +875,12 @@ a { color: inherit; }
 .quality-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  margin-top: 20px;
+  gap: 10px;
+  margin-top: 14px;
 }
 
 .quality-grid div {
-  padding: 16px;
+  padding: 10px 12px;
   background: var(--muted);
   border: 1px solid var(--line);
   border-radius: 6px;
@@ -888,31 +888,45 @@ a { color: inherit; }
 
 .quality-card {
   display: flex;
-  align-items: flex-start;
-  gap: 12px;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
 }
 
 .quality-icon {
-  flex: 0 0 42px;
-  width: 42px;
-  height: 42px;
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
   object-fit: contain;
 }
 
 .quality-copy {
   margin: 0;
+  min-width: 0;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  row-gap: 1px;
 }
 
 .quality-grid strong {
   display: block;
+  overflow: hidden;
   color: #10243a;
   font-size: 13px;
+  line-height: 1.12;
+  text-overflow: ellipsis;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .quality-grid span {
+  display: block;
+  overflow: hidden;
   color: var(--soft);
   font-size: 13px;
+  line-height: 1.12;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .stats-strip strong {
