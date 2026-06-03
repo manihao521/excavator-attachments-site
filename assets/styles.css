@@ -829,6 +829,7 @@ a { color: inherit; }
 
 .factory-placeholder {
   min-height: 330px;
+  aspect-ratio: 16 / 9;
   display: block;
   width: 100%;
   object-fit: cover;
