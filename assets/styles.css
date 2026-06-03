@@ -712,10 +712,15 @@ a { color: inherit; }
   z-index: 2;
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  min-height: 40px;
+  gap: 0;
 }
 
 .application-icon {
+  position: absolute;
+  left: 0;
+  bottom: 0;
   flex: 0 0 36px;
   width: 36px;
   height: 36px;
@@ -730,8 +735,10 @@ a { color: inherit; }
 }
 
 .application-grid strong {
-  flex: 1;
-  min-width: 0;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 46px;
   font-size: 15px;
   line-height: 1.08;
   text-align: center;
