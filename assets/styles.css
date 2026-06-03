@@ -687,7 +687,7 @@ a { color: inherit; }
 
 .application-grid a {
   position: relative;
-  min-height: 126px;
+  min-height: 148px;
   overflow: hidden;
   color: #fff;
   text-decoration: none;
@@ -695,12 +695,21 @@ a { color: inherit; }
   background: var(--navy);
 }
 
+.application-grid a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(0, 18, 32, .08), rgba(0, 18, 32, .78)),
+    linear-gradient(90deg, rgba(0, 25, 47, .35), rgba(0, 25, 47, .02));
+}
+
 .application-grid strong {
   position: absolute;
   left: 16px;
   right: 16px;
   bottom: 14px;
-  z-index: 1;
+  z-index: 2;
   font-size: 15px;
   text-transform: uppercase;
 }
@@ -720,6 +729,7 @@ a { color: inherit; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: scale(1.01);
 }
 
 .scene::before {
