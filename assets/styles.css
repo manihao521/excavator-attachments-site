@@ -886,6 +886,23 @@ a { color: inherit; }
   border-radius: 6px;
 }
 
+.quality-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.quality-icon {
+  flex: 0 0 42px;
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.quality-copy {
+  margin: 0;
+}
+
 .quality-grid strong {
   display: block;
   color: #10243a;
