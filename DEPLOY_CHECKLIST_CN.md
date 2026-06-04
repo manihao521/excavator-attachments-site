@@ -3,7 +3,7 @@
 ## 1. 必填信息
 上线前请替换：
 
-- 品牌名：YourBrand Attachments
+- 品牌名：KRATOR Attachments
 - 域名：https://www.yourdomain.com
 - 邮箱：manihao521@gmail.com
 - WhatsApp：+8613370928803

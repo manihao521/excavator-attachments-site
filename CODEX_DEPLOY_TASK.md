@@ -49,7 +49,7 @@ npx wrangler pages deploy . --project-name=<your-pages-project-name> --branch=ma
 
 ## Before launch replacements
 Replace placeholders across the site:
-- `YourBrand Attachments`
+- `KRATOR Attachments`
 - `https://www.yourdomain.com`
 - `manihao521@gmail.com`
 - `+8613370928803`

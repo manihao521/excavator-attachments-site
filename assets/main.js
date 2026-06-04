@@ -22,13 +22,13 @@ document.querySelectorAll('[data-file-input]').forEach((input) => {
 
     if (!nameTarget) return;
     if (!file) {
-      nameTarget.textContent = 'No file selected';
+      nameTarget.textContent = 'Click to Upload';
       return;
     }
 
     if (file.size > 10 * 1024 * 1024) {
       input.value = '';
-      nameTarget.textContent = 'No file selected';
+      nameTarget.textContent = 'Click to Upload';
       window.alert('Please upload JPG, PNG, or PDF files up to 10MB.');
       return;
     }

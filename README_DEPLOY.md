@@ -6,7 +6,7 @@ This is a static B2B inquiry website for excavator attachments. It is ready for 
 
 Search and replace these values across files:
 
-- `YourBrand Attachments` → your real brand name
+- `KRATOR Attachments` → your real brand name
 - `https://www.yourdomain.com` → your domain, e.g. `https://www.example.com`
 - `manihao521@gmail.com` → your business email
 - `+8613370928803` → your WhatsApp number
