@@ -342,7 +342,14 @@
         <label>الاسم <input name="name" placeholder="أدخل الاسم" required></label>
         <label>البريد الإلكتروني <input name="email" type="email" placeholder="أدخل البريد" required></label>
         <label>واتساب / الهاتف <input name="phone" placeholder="أدخل واتساب / الهاتف" required></label>
-        <label>رفع رسومات / صور <input name="attachment" type="file"></label>
+        <label class="file-upload-field">رفع رسومات / صور
+          <input class="file-input" name="attachment" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" data-file-input>
+          <span class="file-upload-control">
+            <span class="file-upload-button">Choose File</span>
+            <span class="file-upload-name" data-file-name>No file selected</span>
+          </span>
+          <span class="file-upload-note">JPG, PNG, PDF (Max 10MB)</span>
+        </label>
         <label class="wide">رسالة / متطلبات إضافية <textarea name="message" placeholder="أدخل متطلباتك..."></textarea></label>
       </div>
       <p class="form-note">نموذج الإرسال غير متصل بعد. يرجى إرسال الاستفسار عبر البريد أو واتساب.</p>

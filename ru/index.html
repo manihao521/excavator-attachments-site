@@ -342,7 +342,14 @@
         <label>Ваше имя <input name="name" placeholder="Введите имя" required></label>
         <label>Email <input name="email" type="email" placeholder="Введите email" required></label>
         <label>WhatsApp / телефон <input name="phone" placeholder="Введите WhatsApp / телефон" required></label>
-        <label>Загрузить чертежи / фото <input name="attachment" type="file"></label>
+        <label class="file-upload-field">Загрузить чертежи / фото
+          <input class="file-input" name="attachment" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" data-file-input>
+          <span class="file-upload-control">
+            <span class="file-upload-button">Choose File</span>
+            <span class="file-upload-name" data-file-name>No file selected</span>
+          </span>
+          <span class="file-upload-note">JPG, PNG, PDF (Max 10MB)</span>
+        </label>
         <label class="wide">Сообщение / дополнительные требования <textarea name="message" placeholder="Введите ваши требования..."></textarea></label>
       </div>
       <p class="form-note">Форма пока не подключена. Пожалуйста, отправляйте запросы по email или WhatsApp.</p>

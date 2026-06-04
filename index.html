@@ -342,7 +342,14 @@
         <label>Your Name <input name="name" placeholder="Enter Your Name" required></label>
         <label>Email <input name="email" type="email" placeholder="Enter Email" required></label>
         <label>WhatsApp / Phone <input name="phone" placeholder="Enter WhatsApp / Phone" required></label>
-        <label>Upload Drawings / Photos <input name="attachment" type="file"></label>
+        <label class="file-upload-field">Upload Drawings / Photos
+          <input class="file-input" name="attachment" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" data-file-input>
+          <span class="file-upload-control">
+            <span class="file-upload-button">Choose File</span>
+            <span class="file-upload-name" data-file-name>No file selected</span>
+          </span>
+          <span class="file-upload-note">JPG, PNG, PDF (Max 10MB)</span>
+        </label>
         <label class="wide">Message / Additional Requirements <textarea name="message" placeholder="Enter your requirements..."></textarea></label>
       </div>
       <p class="form-note">Form endpoint is not connected yet. For now, please send inquiries by email or WhatsApp.</p>

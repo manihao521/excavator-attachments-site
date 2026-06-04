@@ -13,3 +13,26 @@ document.querySelectorAll('[data-popular-tab]').forEach((button) => {
     });
   });
 });
+
+document.querySelectorAll('[data-file-input]').forEach((input) => {
+  input.addEventListener('change', () => {
+    const field = input.closest('.file-upload-field');
+    const nameTarget = field?.querySelector('[data-file-name]');
+    const file = input.files?.[0];
+
+    if (!nameTarget) return;
+    if (!file) {
+      nameTarget.textContent = 'No file selected';
+      return;
+    }
+
+    if (file.size > 10 * 1024 * 1024) {
+      input.value = '';
+      nameTarget.textContent = 'No file selected';
+      window.alert('Please upload JPG, PNG, or PDF files up to 10MB.');
+      return;
+    }
+
+    nameTarget.textContent = file.name;
+  });
+});

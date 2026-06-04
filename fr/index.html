@@ -342,7 +342,14 @@
         <label>Votre nom <input name="name" placeholder="Saisir votre nom" required></label>
         <label>Email <input name="email" type="email" placeholder="Saisir l&#x27;email" required></label>
         <label>WhatsApp / téléphone <input name="phone" placeholder="Saisir WhatsApp / téléphone" required></label>
-        <label>Ajouter plans / photos <input name="attachment" type="file"></label>
+        <label class="file-upload-field">Ajouter plans / photos
+          <input class="file-input" name="attachment" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" data-file-input>
+          <span class="file-upload-control">
+            <span class="file-upload-button">Choose File</span>
+            <span class="file-upload-name" data-file-name>No file selected</span>
+          </span>
+          <span class="file-upload-note">JPG, PNG, PDF (Max 10MB)</span>
+        </label>
         <label class="wide">Message / exigences supplémentaires <textarea name="message" placeholder="Saisir vos exigences..."></textarea></label>
       </div>
       <p class="form-note">Le formulaire n&#x27;est pas encore connecté. Envoyez vos demandes par email ou WhatsApp.</p>

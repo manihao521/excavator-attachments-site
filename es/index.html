@@ -342,7 +342,14 @@
         <label>Su nombre <input name="name" placeholder="Ingresar nombre" required></label>
         <label>Email <input name="email" type="email" placeholder="Ingresar email" required></label>
         <label>WhatsApp / teléfono <input name="phone" placeholder="Ingresar WhatsApp / teléfono" required></label>
-        <label>Subir planos / fotos <input name="attachment" type="file"></label>
+        <label class="file-upload-field">Subir planos / fotos
+          <input class="file-input" name="attachment" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" data-file-input>
+          <span class="file-upload-control">
+            <span class="file-upload-button">Choose File</span>
+            <span class="file-upload-name" data-file-name>No file selected</span>
+          </span>
+          <span class="file-upload-note">JPG, PNG, PDF (Max 10MB)</span>
+        </label>
         <label class="wide">Mensaje / requisitos adicionales <textarea name="message" placeholder="Ingrese sus requisitos..."></textarea></label>
       </div>
       <p class="form-note">El formulario aún no está conectado. Por ahora, envíe consultas por email o WhatsApp.</p>
