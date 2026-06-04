@@ -329,20 +329,20 @@
     </div>
     <form class="inquiry quote-form" action="https://formspree.io/f/your-form-id" method="POST" enctype="multipart/form-data">
       <div class="form-grid">
-        <label>Producto de interés <select name="product" required><option value="" selected>Seleccionar producto</option><option>Hydraulic Breaker</option><option>Quick Coupler</option><option>Hydraulic Pile Hammer</option><option>Demolition Shear</option><option>Excavator Bucket</option><option>Hydraulic Pulverizer</option><option>Hydraulic Compactor</option><option>Grapple</option><option>Ripper</option><option>Vibro Hammer</option><option>Plate Compactor</option><option>Custom Attachment</option></select></label>
-        <label>Marca de la máquina <select name="machine_brand" required><option value="" selected>Seleccionar marca</option><option>Caterpillar</option><option>Komatsu</option><option>Hitachi</option><option>Volvo</option><option>Doosan</option><option>Hyundai</option><option>Other</option></select></label>
-        <label>Modelo de máquina <input name="machine_model" placeholder="Ingresar modelo"></label>
-        <label>Peso / tonelaje <select name="tonnage" required><option value="" selected>Seleccionar tonelaje</option><option>1 - 3 ton</option><option>4 - 9 ton</option><option>10 - 16 ton</option><option>17 - 25 ton</option><option>26 - 35 ton</option><option>36 - 50 ton</option><option>51 - 90 ton</option></select></label>
-        <label>Diámetro del pasador (mm) <input name="pin_diameter" placeholder="Ingresar diámetro del pasador"></label>
-        <label>Ancho del brazo (mm) <input name="arm_width" placeholder="Ingresar ancho del brazo"></label>
-        <label>Distancia entre centros (mm) <input name="center_distance" placeholder="Ingresar distancia entre centros"></label>
-        <label>Condición de trabajo <select name="working_condition" required><option value="" selected>Seleccionar condición</option><option>Demolition</option><option>Piling</option><option>Quarry</option><option>Road Construction</option><option>Earthmoving</option><option>Recycling</option></select></label>
-        <label>Cantidad requerida <input name="quantity" placeholder="Ingresar cantidad" required></label>
-        <label>País <select name="country" required><option value="" selected>Seleccionar país</option><option>United States</option><option>Canada</option><option>Australia</option><option>UAE</option><option>Saudi Arabia</option><option>South Africa</option><option>Other</option></select></label>
-        <label>Su nombre <input name="name" placeholder="Ingresar nombre" required></label>
-        <label>Email <input name="email" type="email" placeholder="Ingresar email" required></label>
-        <label>WhatsApp / teléfono <input name="phone" placeholder="Ingresar WhatsApp / teléfono" required></label>
-        <label class="file-upload-field">Subir planos / fotos
+        <label><span class="field-title">Producto de interés<span class="req-star" aria-hidden="true">*</span></span><select name="product" required><option value="" selected>Seleccionar producto</option><option>Hydraulic Breaker</option><option>Quick Coupler</option><option>Hydraulic Pile Hammer</option><option>Demolition Shear</option><option>Excavator Bucket</option><option>Hydraulic Pulverizer</option><option>Hydraulic Compactor</option><option>Grapple</option><option>Ripper</option><option>Vibro Hammer</option><option>Plate Compactor</option><option>Custom Attachment</option></select></label>
+        <label><span class="field-title">Marca de la máquina<span class="req-star" aria-hidden="true">*</span></span><select name="machine_brand" required><option value="" selected>Seleccionar marca</option><option>Caterpillar</option><option>Komatsu</option><option>Hitachi</option><option>Volvo</option><option>Doosan</option><option>Hyundai</option><option>Other</option></select></label>
+        <label><span class="field-title">Modelo de máquina</span><input name="machine_model" placeholder="Ingresar modelo"></label>
+        <label><span class="field-title">Peso / tonelaje<span class="req-star" aria-hidden="true">*</span></span><select name="tonnage" required><option value="" selected>Seleccionar tonelaje</option><option>1 - 3 ton</option><option>4 - 9 ton</option><option>10 - 16 ton</option><option>17 - 25 ton</option><option>26 - 35 ton</option><option>36 - 50 ton</option><option>51 - 90 ton</option></select></label>
+        <label><span class="field-title">Diámetro del pasador (mm)</span><input name="pin_diameter" placeholder="Ingresar diámetro del pasador"></label>
+        <label><span class="field-title">Ancho del brazo (mm)</span><input name="arm_width" placeholder="Ingresar ancho del brazo"></label>
+        <label><span class="field-title">Distancia entre centros (mm)</span><input name="center_distance" placeholder="Ingresar distancia entre centros"></label>
+        <label><span class="field-title">Condición de trabajo<span class="req-star" aria-hidden="true">*</span></span><select name="working_condition" required><option value="" selected>Seleccionar condición</option><option>Demolition</option><option>Piling</option><option>Quarry</option><option>Road Construction</option><option>Earthmoving</option><option>Recycling</option></select></label>
+        <label><span class="field-title">Cantidad requerida<span class="req-star" aria-hidden="true">*</span></span><input name="quantity" placeholder="Ingresar cantidad" required></label>
+        <label><span class="field-title">País<span class="req-star" aria-hidden="true">*</span></span><select name="country" required><option value="" selected>Seleccionar país</option><option>United States</option><option>Canada</option><option>Australia</option><option>UAE</option><option>Saudi Arabia</option><option>South Africa</option><option>Other</option></select></label>
+        <label><span class="field-title">Su nombre<span class="req-star" aria-hidden="true">*</span></span><input name="name" placeholder="Ingresar nombre" required></label>
+        <label><span class="field-title">Email<span class="req-star" aria-hidden="true">*</span></span><input name="email" type="email" placeholder="Ingresar email" required></label>
+        <label><span class="field-title">WhatsApp / teléfono<span class="req-star" aria-hidden="true">*</span></span><input name="phone" placeholder="Ingresar WhatsApp / teléfono" required></label>
+        <label class="file-upload-field"><span class="field-title">Subir planos / fotos</span>
           <input class="file-input" name="attachment" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" data-file-input>
           <span class="file-upload-control">
             <span class="file-upload-action">
@@ -352,7 +352,7 @@
           </span>
           <span class="file-upload-note">JPG, PNG, PDF (Max 10MB)</span>
         </label>
-        <label class="wide">Mensaje / requisitos adicionales <textarea name="message" placeholder="Ingrese sus requisitos..."></textarea></label>
+        <label class="wide"><span class="field-title">Mensaje / requisitos adicionales</span><textarea name="message" placeholder="Ingrese sus requisitos..."></textarea></label>
       </div>
       <p class="form-note">El formulario aún no está conectado. Por ahora, envíe consultas por email o WhatsApp.</p>
       <button class="btn primary wide-button" type="submit">Enviar / Solicitar cotización</button>

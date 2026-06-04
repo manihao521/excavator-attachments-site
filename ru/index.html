@@ -329,20 +329,20 @@
     </div>
     <form class="inquiry quote-form" action="https://formspree.io/f/your-form-id" method="POST" enctype="multipart/form-data">
       <div class="form-grid">
-        <label>Интересующий продукт <select name="product" required><option value="" selected>Выберите продукт</option><option>Hydraulic Breaker</option><option>Quick Coupler</option><option>Hydraulic Pile Hammer</option><option>Demolition Shear</option><option>Excavator Bucket</option><option>Hydraulic Pulverizer</option><option>Hydraulic Compactor</option><option>Grapple</option><option>Ripper</option><option>Vibro Hammer</option><option>Plate Compactor</option><option>Custom Attachment</option></select></label>
-        <label>Бренд машины <select name="machine_brand" required><option value="" selected>Выберите бренд</option><option>Caterpillar</option><option>Komatsu</option><option>Hitachi</option><option>Volvo</option><option>Doosan</option><option>Hyundai</option><option>Other</option></select></label>
-        <label>Модель машины <input name="machine_model" placeholder="Введите модель"></label>
-        <label>Вес / тоннаж машины <select name="tonnage" required><option value="" selected>Выберите тоннаж</option><option>1 - 3 ton</option><option>4 - 9 ton</option><option>10 - 16 ton</option><option>17 - 25 ton</option><option>26 - 35 ton</option><option>36 - 50 ton</option><option>51 - 90 ton</option></select></label>
-        <label>Диаметр пальца (мм) <input name="pin_diameter" placeholder="Введите диаметр пальца"></label>
-        <label>Ширина рукояти (мм) <input name="arm_width" placeholder="Введите ширину рукояти"></label>
-        <label>Межцентровое расстояние (мм) <input name="center_distance" placeholder="Введите межцентровое расстояние"></label>
-        <label>Условия работы <select name="working_condition" required><option value="" selected>Выберите условия</option><option>Demolition</option><option>Piling</option><option>Quarry</option><option>Road Construction</option><option>Earthmoving</option><option>Recycling</option></select></label>
-        <label>Количество <input name="quantity" placeholder="Введите количество" required></label>
-        <label>Страна <select name="country" required><option value="" selected>Выберите страну</option><option>United States</option><option>Canada</option><option>Australia</option><option>UAE</option><option>Saudi Arabia</option><option>South Africa</option><option>Other</option></select></label>
-        <label>Ваше имя <input name="name" placeholder="Введите имя" required></label>
-        <label>Email <input name="email" type="email" placeholder="Введите email" required></label>
-        <label>WhatsApp / телефон <input name="phone" placeholder="Введите WhatsApp / телефон" required></label>
-        <label class="file-upload-field">Загрузить чертежи / фото
+        <label><span class="field-title">Интересующий продукт<span class="req-star" aria-hidden="true">*</span></span><select name="product" required><option value="" selected>Выберите продукт</option><option>Hydraulic Breaker</option><option>Quick Coupler</option><option>Hydraulic Pile Hammer</option><option>Demolition Shear</option><option>Excavator Bucket</option><option>Hydraulic Pulverizer</option><option>Hydraulic Compactor</option><option>Grapple</option><option>Ripper</option><option>Vibro Hammer</option><option>Plate Compactor</option><option>Custom Attachment</option></select></label>
+        <label><span class="field-title">Бренд машины<span class="req-star" aria-hidden="true">*</span></span><select name="machine_brand" required><option value="" selected>Выберите бренд</option><option>Caterpillar</option><option>Komatsu</option><option>Hitachi</option><option>Volvo</option><option>Doosan</option><option>Hyundai</option><option>Other</option></select></label>
+        <label><span class="field-title">Модель машины</span><input name="machine_model" placeholder="Введите модель"></label>
+        <label><span class="field-title">Вес / тоннаж машины<span class="req-star" aria-hidden="true">*</span></span><select name="tonnage" required><option value="" selected>Выберите тоннаж</option><option>1 - 3 ton</option><option>4 - 9 ton</option><option>10 - 16 ton</option><option>17 - 25 ton</option><option>26 - 35 ton</option><option>36 - 50 ton</option><option>51 - 90 ton</option></select></label>
+        <label><span class="field-title">Диаметр пальца (мм)</span><input name="pin_diameter" placeholder="Введите диаметр пальца"></label>
+        <label><span class="field-title">Ширина рукояти (мм)</span><input name="arm_width" placeholder="Введите ширину рукояти"></label>
+        <label><span class="field-title">Межцентровое расстояние (мм)</span><input name="center_distance" placeholder="Введите межцентровое расстояние"></label>
+        <label><span class="field-title">Условия работы<span class="req-star" aria-hidden="true">*</span></span><select name="working_condition" required><option value="" selected>Выберите условия</option><option>Demolition</option><option>Piling</option><option>Quarry</option><option>Road Construction</option><option>Earthmoving</option><option>Recycling</option></select></label>
+        <label><span class="field-title">Количество<span class="req-star" aria-hidden="true">*</span></span><input name="quantity" placeholder="Введите количество" required></label>
+        <label><span class="field-title">Страна<span class="req-star" aria-hidden="true">*</span></span><select name="country" required><option value="" selected>Выберите страну</option><option>United States</option><option>Canada</option><option>Australia</option><option>UAE</option><option>Saudi Arabia</option><option>South Africa</option><option>Other</option></select></label>
+        <label><span class="field-title">Ваше имя<span class="req-star" aria-hidden="true">*</span></span><input name="name" placeholder="Введите имя" required></label>
+        <label><span class="field-title">Email<span class="req-star" aria-hidden="true">*</span></span><input name="email" type="email" placeholder="Введите email" required></label>
+        <label><span class="field-title">WhatsApp / телефон<span class="req-star" aria-hidden="true">*</span></span><input name="phone" placeholder="Введите WhatsApp / телефон" required></label>
+        <label class="file-upload-field"><span class="field-title">Загрузить чертежи / фото</span>
           <input class="file-input" name="attachment" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf" data-file-input>
           <span class="file-upload-control">
             <span class="file-upload-action">
@@ -352,7 +352,7 @@
           </span>
           <span class="file-upload-note">JPG, PNG, PDF (Max 10MB)</span>
         </label>
-        <label class="wide">Сообщение / дополнительные требования <textarea name="message" placeholder="Введите ваши требования..."></textarea></label>
+        <label class="wide"><span class="field-title">Сообщение / дополнительные требования</span><textarea name="message" placeholder="Введите ваши требования..."></textarea></label>
       </div>
       <p class="form-note">Форма пока не подключена. Пожалуйста, отправляйте запросы по email или WhatsApp.</p>
       <button class="btn primary wide-button" type="submit">Отправить / Получить цену</button>
