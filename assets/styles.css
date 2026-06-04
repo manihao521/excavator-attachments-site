@@ -417,6 +417,25 @@ a { color: inherit; }
   border-right: 1px solid rgba(255, 255, 255, .28);
 }
 
+.stats-card {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 18px;
+  align-items: center;
+}
+
+.stats-card p {
+  margin: 0;
+}
+
+.stats-icon {
+  display: block;
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, .28));
+}
+
 .assurance-strip div {
   display: grid;
   grid-template-columns: 58px 1fr;
