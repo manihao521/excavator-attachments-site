@@ -805,28 +805,41 @@ a { color: inherit; }
 
 .service-band {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-  gap: 28px;
-  padding: 34px clamp(24px, 5vw, 70px);
+  grid-template-columns: minmax(320px, .72fr) minmax(0, 1.75fr);
+  align-items: stretch;
+  gap: clamp(34px, 4vw, 72px);
+  padding: 30px clamp(24px, 5vw, 70px);
   color: #fff;
   background: linear-gradient(90deg, var(--navy-2), var(--navy));
 }
 
-.service-intro h2 {
-  color: #fff;
-  font-size: clamp(24px, 2.6vw, 34px);
+.service-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 560px;
 }
 
-.service-intro p { color: #c8d6e2; }
+.service-intro h2 {
+  color: #fff;
+  font-size: clamp(28px, 2.75vw, 42px);
+  line-height: 1.02;
+  margin-bottom: 18px;
+}
+
+.service-intro p {
+  color: #c8d6e2;
+  line-height: 1.58;
+}
 
 .mini-link {
   display: inline-flex;
-  margin-top: 8px;
-  padding: 8px 12px;
+  align-self: flex-start;
+  margin-top: 20px;
+  padding: 13px 20px;
   color: var(--navy-2);
   background: var(--yellow);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 950;
   text-decoration: none;
   text-transform: uppercase;
@@ -834,21 +847,23 @@ a { color: inherit; }
 
 .service-steps {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 16px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 18px;
+  align-items: stretch;
 }
 
 .service-steps span {
   display: grid;
-  grid-template-rows: 72px auto;
+  grid-template-rows: 94px minmax(42px, auto);
+  align-content: center;
   align-items: center;
   justify-items: center;
-  min-height: 126px;
-  padding: 16px 12px 18px;
+  min-height: 180px;
+  padding: 18px 12px 20px;
   color: #dce7f1;
   border: 1px solid rgba(255, 255, 255, .18);
   border-radius: 6px;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 850;
   text-align: center;
   text-transform: uppercase;
@@ -856,15 +871,15 @@ a { color: inherit; }
 
 .service-step-icon {
   display: block;
-  width: 66px;
-  height: 66px;
+  width: 88px;
+  height: 88px;
   object-fit: contain;
   filter: drop-shadow(0 8px 11px rgba(0, 0, 0, .22));
 }
 
 .service-steps strong {
   display: block;
-  line-height: 1.25;
+  line-height: 1.12;
 }
 
 .quality-section {
