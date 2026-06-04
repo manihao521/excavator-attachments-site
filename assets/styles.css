@@ -66,19 +66,18 @@ a { color: inherit; }
 .brand-logo {
   display: block;
   width: auto;
-  height: 64px;
-  max-width: 330px;
-  padding: 6px 12px;
+  height: 82px;
+  max-width: 390px;
+  padding: 0;
   object-fit: contain;
-  background: rgba(255, 255, 255, .98);
-  border-radius: 3px;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, .2);
+  background: transparent;
+  border-radius: 0;
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, .28));
 }
 
 .footer-brand .brand-logo {
-  height: 72px;
-  max-width: 370px;
-  padding: 7px 14px;
+  height: 90px;
+  max-width: 430px;
 }
 
 .nav {
@@ -1119,41 +1118,146 @@ a { color: inherit; }
 }
 
 .home-quote {
+  position: relative;
   display: grid;
-  grid-template-columns: 290px 1fr;
-  gap: 24px;
-  max-width: var(--max);
-  margin: 24px auto 0;
-  padding: 24px;
+  grid-template-columns: minmax(320px, 430px) minmax(0, 1fr);
+  gap: clamp(26px, 3vw, 44px);
+  max-width: none;
+  margin: 34px 0 0;
+  padding: 32px clamp(24px, 4vw, 58px);
   color: #fff;
-  background: linear-gradient(135deg, var(--navy-2), var(--navy));
-  border-radius: 8px;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(22, 82, 130, .5), transparent 34%),
+    linear-gradient(115deg, #021a2f 0%, #062c4b 55%, #02172a 100%);
+  border-radius: 0;
+  overflow: hidden;
 }
 
 .quote-copy {
-  padding: 18px;
+  position: relative;
+  min-height: 520px;
+  padding: 18px 0;
+  overflow: hidden;
+}
+
+.quote-copy::after {
+  position: absolute;
+  right: -110px;
+  bottom: -40px;
+  z-index: 0;
+  width: min(470px, 118%);
+  height: 76%;
+  content: "";
+  background: url("/assets/images/quote-blueprint-bg.jpg") right bottom / contain no-repeat;
+  opacity: .45;
+  pointer-events: none;
+}
+
+.quote-copy > * {
+  position: relative;
+  z-index: 1;
+}
+
+.quote-copy .eyebrow {
+  color: var(--yellow);
+}
+
+.quote-copy .eyebrow::after {
+  display: block;
+  width: 52px;
+  height: 4px;
+  margin-top: 12px;
+  content: "";
+  background: var(--yellow);
 }
 
 .quote-copy h2 {
+  max-width: 430px;
+  margin-top: 22px;
   color: #fff;
-  font-size: clamp(26px, 2.5vw, 36px);
+  font-size: clamp(38px, 4vw, 62px);
+  line-height: 1.08;
+  letter-spacing: .03em;
+  text-shadow: 0 6px 18px rgba(0, 0, 0, .28);
+  text-transform: uppercase;
 }
 
 .quote-copy ul {
-  padding-left: 18px;
-  color: #d5e2ed;
+  display: grid;
+  gap: 10px;
+  margin: 26px 0 28px;
+  padding: 0;
+  color: #fff;
+  font-size: 17px;
+  list-style: none;
 }
 
-.quote-copy a { color: #fff; }
+.quote-copy li {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.quote-point-icon {
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.quote-copy a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.quote-contact-list {
+  display: grid;
+  gap: 18px;
+  max-width: 360px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, .34);
+}
+
+.quote-contact-item {
+  display: grid;
+  grid-template-columns: 38px 1fr;
+  gap: 14px;
+  align-items: start;
+}
+
+.quote-contact-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.quote-contact-item strong {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 850;
+  line-height: 1.25;
+}
+
+.quote-contact-item em {
+  display: block;
+  margin-top: 3px;
+  color: #fff;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.28;
+}
 
 .quote-form {
-  border-radius: 6px;
+  border-radius: 18px;
+  box-shadow: 0 24px 54px rgba(0, 0, 0, .24);
 }
 
 .form-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 14px;
+  gap: 26px 24px;
 }
 
 .form-grid .wide { grid-column: span 2; }
@@ -1378,14 +1482,20 @@ tr:last-child td { border-bottom: 0; }
   border-radius: 8px;
 }
 
+.quote-form.inquiry {
+  padding: 34px;
+  border-color: #d7e1ec;
+  border-radius: 18px;
+}
+
 .inquiry label {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 7px;
-  color: #334155;
-  font-size: 13px;
-  font-weight: 850;
+  gap: 9px;
+  color: #0b1f38;
+  font-size: 15px;
+  font-weight: 760;
 }
 
 .field-title {
@@ -1398,8 +1508,8 @@ tr:last-child td { border-bottom: 0; }
 
 .req-star {
   color: #dc2626;
-  font-size: 16px;
-  font-weight: 950;
+  font-size: 15px;
+  font-weight: 900;
   line-height: 1;
 }
 
@@ -1407,15 +1517,29 @@ tr:last-child td { border-bottom: 0; }
 .inquiry textarea,
 .inquiry select {
   width: 100%;
-  min-height: 42px;
-  padding: 10px 12px;
-  color: var(--text);
+  min-height: 54px;
+  padding: 0 18px;
+  color: #071b35;
   border: 1px solid #cbd5e1;
-  border-radius: 4px;
-  font: inherit;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, .04) inset;
 }
 
-.inquiry textarea { min-height: 88px; }
+.inquiry input::placeholder,
+.inquiry textarea::placeholder {
+  color: #64748b;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.inquiry textarea {
+  min-height: 118px;
+  padding-top: 16px;
+  line-height: 1.45;
+}
 
 .file-upload-field {
   position: relative;
@@ -1434,10 +1558,11 @@ tr:last-child td { border-bottom: 0; }
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 42px;
-  padding: 8px 12px;
+  min-height: 54px;
+  padding: 10px 14px;
   border: 1px solid #cbd5e1;
-  border-radius: 4px;
+  border-style: dashed;
+  border-radius: 6px;
   background: #fff;
   cursor: pointer;
 }
@@ -1448,14 +1573,15 @@ tr:last-child td { border-bottom: 0; }
   justify-content: center;
   gap: 10px;
   max-width: 100%;
-  color: #475569;
-  font-weight: 900;
+  color: #10243d;
+  font-size: 17px;
+  font-weight: 760;
   white-space: nowrap;
 }
 
 .file-upload-icon {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   object-fit: contain;
 }
 
@@ -1467,10 +1593,10 @@ tr:last-child td { border-bottom: 0; }
 }
 
 .file-upload-note {
-  margin-top: 4px;
-  color: var(--soft);
-  font-size: 13px;
-  font-weight: 800;
+  margin-top: 10px;
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -1478,6 +1604,36 @@ tr:last-child td { border-bottom: 0; }
 .note {
   color: var(--soft);
   font-size: 14px;
+}
+
+.quote-form .form-note {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 22px 0 18px;
+  color: #64748b;
+  font-size: 15px;
+}
+
+.form-note-icon {
+  display: inline-grid;
+  flex: 0 0 22px;
+  width: 22px;
+  height: 22px;
+  place-items: center;
+  color: #35506d;
+  border: 1px solid #8ea2ba;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.quote-form .wide-button {
+  min-height: 62px;
+  border-radius: 6px;
+  font-size: 18px;
+  letter-spacing: .04em;
 }
 
 .contact-box {
@@ -1541,7 +1697,12 @@ html[dir="rtl"] td {
 html[dir="rtl"] .quote-copy ul,
 html[dir="rtl"] .model-list {
   padding-left: 0;
-  padding-right: 20px;
+  padding-right: 0;
+}
+
+html[dir="rtl"] .quote-contact-item,
+html[dir="rtl"] .quote-copy li {
+  direction: rtl;
 }
 
 @media (max-width: 1120px) {
@@ -1551,6 +1712,16 @@ html[dir="rtl"] .model-list {
   .featured-grid { grid-template-columns: repeat(4, 1fr); }
   .footer { grid-template-columns: repeat(3, 1fr); }
   .popular-layout { grid-template-columns: 1fr; }
+  .home-quote { grid-template-columns: 1fr; }
+  .quote-copy {
+    min-height: 420px;
+    padding-bottom: 180px;
+  }
+  .quote-copy::after {
+    right: -60px;
+    width: min(430px, 80vw);
+    height: 66%;
+  }
   .popular-tabs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1625,17 +1796,39 @@ html[dir="rtl"] .model-list {
   .popular-tabs { grid-template-columns: 1fr; }
   .form-grid,
   .form-grid .wide { grid-template-columns: 1fr; grid-column: auto; }
+  .home-quote {
+    padding: 28px 18px;
+  }
+  .quote-form.inquiry {
+    padding: 22px;
+    border-radius: 14px;
+  }
+  .quote-copy h2 {
+    max-width: 620px;
+  }
   .lead { font-size: 18px; }
 }
 
 @media (max-width: 560px) {
   .brand-logo {
-    height: 48px;
-    max-width: 230px;
-    padding: 5px 8px;
+    height: 54px;
+    max-width: 270px;
   }
+  .footer-brand .brand-logo { height: 66px; }
   .home-hero__content { padding: 56px 20px; }
   .home-hero h1 { font-size: 36px; }
+  .quote-copy {
+    min-height: 400px;
+    padding-bottom: 170px;
+  }
+  .quote-copy h2 {
+    font-size: 34px;
+  }
+  .quote-copy::after {
+    right: -78px;
+    bottom: -32px;
+    width: 360px;
+  }
   .assurance-strip,
   .stats-strip,
   .application-grid,
