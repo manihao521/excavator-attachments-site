@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 820" aria-hidden="true">
+  <defs>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#7fb4dc" stroke-width="1" opacity=".14"/>
+      <path d="M32 0V64M0 32H64" fill="none" stroke="#7fb4dc" stroke-width=".6" opacity=".08"/>
+    </pattern>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation=".55"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="820" fill="url(#grid)"/>
+  <g fill="none" stroke="#c7e6ff" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)">
+    <g opacity=".55" stroke-width="3">
+      <path d="M115 525 335 333 530 438 381 604Z"/>
+      <path d="M174 530 344 383 457 447 352 555Z"/>
+      <path d="M298 337 390 235 724 368 535 441"/>
+      <path d="M395 240 488 167 828 288 724 368"/>
+      <path d="M488 167 588 126 956 226 828 288"/>
+      <path d="M280 333 215 254 330 157 390 235"/>
+      <path d="M925 232 1116 134 1382 228 1193 356Z"/>
+      <path d="M910 290 1116 188 1360 282 1178 408Z"/>
+      <path d="M898 350 1178 408 1038 567 742 487Z"/>
+      <path d="M742 487 910 350 1178 408"/>
+      <path d="M1214 357 1415 309 1500 407 1330 510Z"/>
+      <path d="M1178 408 1330 510 1110 615 1038 567"/>
+    </g>
+    <g opacity=".5" stroke-width="2.2">
+      <circle cx="332" cy="383" r="32"/>
+      <circle cx="332" cy="383" r="13"/>
+      <circle cx="535" cy="441" r="36"/>
+      <circle cx="535" cy="441" r="14"/>
+      <circle cx="724" cy="368" r="33"/>
+      <circle cx="724" cy="368" r="13"/>
+      <circle cx="1116" cy="188" r="31"/>
+      <circle cx="1116" cy="188" r="13"/>
+      <circle cx="1178" cy="408" r="35"/>
+      <circle cx="1178" cy="408" r="14"/>
+      <circle cx="1330" cy="510" r="34"/>
+      <circle cx="1330" cy="510" r="14"/>
+    </g>
+    <g opacity=".32" stroke-width="1.4">
+      <path d="M0 690C214 636 398 618 565 654c151 32 261 34 398-2 178-47 365-31 637 45"/>
+      <path d="M143 662 392 592 684 629 961 590 1274 635 1600 604"/>
+      <path d="M70 720H1500M180 760H1380M320 795H1220"/>
+      <path d="M215 254 112 238M390 235 392 114M588 126 646 74M956 226 984 96M1382 228 1486 176"/>
+    </g>
+  </g>
+</svg>
