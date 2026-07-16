@@ -1,0 +1,4 @@
+interface:
+  display_name: "KRATOR SEO Autopilot"
+  short_description: "Orchestrate recurring KRATOR SEO operations"
+  default_prompt: "Use $11-seo-autopilot to run a read-only recurring KRATOR SEO operation and produce an approval-ready report."

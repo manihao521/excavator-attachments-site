@@ -4,10 +4,21 @@
   "private": true,
   "description": "Static B2B inquiry website for excavator attachments and piling/demolition tools.",
   "scripts": {
+    "build": "node scripts/build.mjs",
+    "blog:extract": "node scripts/extract-blog-manifest.mjs",
+    "blog:generate": "node scripts/generate-blog-listing.mjs",
+    "blog:audit": "node scripts/audit-blog-parity.mjs",
+    "apply:site-system": "node scripts/apply-site-system.mjs",
+    "generate:products-index": "node scripts/generate-products-index.mjs",
+    "generate:product-pages": "node scripts/generate-product-detail-pages.mjs",
+    "process:images": "node scripts/process-images.mjs",
     "serve": "npx serve .",
-    "deploy": "wrangler pages deploy . --project-name=$CLOUDFLARE_PAGES_PROJECT --branch=main"
+    "deploy": "wrangler pages deploy dist --project-name=excavator-attachments --branch=main",
+    "audit:entities": "node scripts/normalize-entity-signals.mjs",
+    "normalize:entities": "node scripts/normalize-entity-signals.mjs --write"
   },
   "devDependencies": {
+    "sharp": "0.34.5",
     "wrangler": "latest",
     "serve": "latest"
   }

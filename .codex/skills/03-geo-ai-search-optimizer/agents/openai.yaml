@@ -1,0 +1,4 @@
+interface:
+  display_name: "KRATOR GEO Optimizer"
+  short_description: "Improve entity and AI search visibility"
+  default_prompt: "Use $03-geo-ai-search-optimizer to assess and improve KRATOR content for AI search."

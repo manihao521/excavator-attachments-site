@@ -1,0 +1,4 @@
+interface:
+  display_name: "KRATOR Conversion Optimizer"
+  short_description: "Improve qualified B2B inquiry conversion"
+  default_prompt: "Use $07-conversion-rate-optimizer to review KRATOR inquiry paths and CTAs."

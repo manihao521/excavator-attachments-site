@@ -1,0 +1,17 @@
+﻿# Canonical host redirect: apex domain to www
+https://kratorattachments.com/* https://www.kratorattachments.com/:splat 301
+http://kratorattachments.com/* https://www.kratorattachments.com/:splat 301
+# Quick Coupler canonical URL
+/products/quick-hitch/ /products/quick-coupler/ 301
+/products/quick-hitch/* /products/quick-coupler/:splat 301
+/products/hydraulic-pile-hammer/ /products/vibratory-pile-hammer/ 301
+/products/hydraulic-pile-hammer/* /products/vibratory-pile-hammer/ 301
+/products/vibro-hammers/ /products/vibratory-pile-hammer/ 301
+/products/vibro-hammers/* /products/vibratory-pile-hammer/ 301
+# Consolidated demolition comparison article
+/blog/hydraulic-shear-vs-pulverizer/ /blog/hydraulic-pulverizer-vs-hydraulic-shear/ 301
+/ar/blog/hydraulic-shear-vs-pulverizer/ /blog/hydraulic-pulverizer-vs-hydraulic-shear/ 301
+/es/blog/hydraulic-shear-vs-pulverizer/ /blog/hydraulic-pulverizer-vs-hydraulic-shear/ 301
+/fr/blog/hydraulic-shear-vs-pulverizer/ /blog/hydraulic-pulverizer-vs-hydraulic-shear/ 301
+/pt/blog/hydraulic-shear-vs-pulverizer/ /blog/hydraulic-pulverizer-vs-hydraulic-shear/ 301
+/ru/blog/hydraulic-shear-vs-pulverizer/ /blog/hydraulic-pulverizer-vs-hydraulic-shear/ 301

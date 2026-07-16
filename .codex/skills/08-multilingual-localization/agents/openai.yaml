@@ -1,0 +1,4 @@
+interface:
+  display_name: "KRATOR Multilingual Localization"
+  short_description: "Localize industrial content for target markets"
+  default_prompt: "Use $08-multilingual-localization to localize approved KRATOR content professionally."

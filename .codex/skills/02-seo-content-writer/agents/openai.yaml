@@ -1,0 +1,4 @@
+interface:
+  display_name: "KRATOR SEO Content Writer"
+  short_description: "Write original industrial B2B search content"
+  default_prompt: "Use $02-seo-content-writer to create an SEO-ready KRATOR page brief and draft."

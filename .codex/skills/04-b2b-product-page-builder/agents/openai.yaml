@@ -1,0 +1,4 @@
+interface:
+  display_name: "KRATOR Product Page Builder"
+  short_description: "Build consistent industrial B2B product pages"
+  default_prompt: "Use $04-b2b-product-page-builder to prepare a KRATOR product page from verified inputs."

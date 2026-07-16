@@ -1,0 +1,142 @@
+<!--
+  KRATOR non-home page template system.
+  Homepage sections are intentionally not based on this file.
+
+  Design tokens live in /assets/styles.css:
+  --ds-primary: #F7B500;
+  --ds-bg: #071A2C;
+  --ds-card: #0B2740;
+  --ds-border: rgba(255,255,255,0.08);
+  --ds-section-padding: 80px;
+  --ds-card-padding: 24px;
+  --ds-grid-gap: 24px;
+-->
+
+<!-- Section title -->
+<header class="system-section-title">
+  <p class="eyebrow">KRATOR ATTACHMENTS</p>
+  <h2>Section Title</h2>
+  <p>Short B2B copy that explains the value for buyers and contractors.</p>
+</header>
+
+<!-- Yellow stroke icon. Keep fill="none" and stroke-width="2". -->
+<span class="system-icon-box" aria-hidden="true">
+  <svg class="system-icon" viewBox="0 0 24 24">
+    <path d="M4 17h16M6 17l2-7h8l2 7M9 10V6h6v4" />
+  </svg>
+</span>
+
+<!-- Basic card -->
+<article class="system-card">
+  <span class="system-icon-box" aria-hidden="true">
+    <svg class="system-icon" viewBox="0 0 24 24">
+      <path d="M5 12h14M12 5l7 7-7 7" />
+    </svg>
+  </span>
+  <h3>Card Title</h3>
+  <p>Use for inner-page features, advantages, FAQ teasers and resource blocks.</p>
+</article>
+
+<!-- Product card -->
+<article class="system-product-card">
+  <img src="/images/products/featured/raw/quick-coupler.webp" alt="Product name" width="900" height="900" decoding="async" loading="lazy">
+  <div>
+    <p class="eyebrow">1-90 Ton Excavators</p>
+    <h3>Product Name</h3>
+    <p>Short application-focused product description for B2B buyers.</p>
+  </div>
+  <a class="system-btn system-btn-primary" href="/contact/">Get Matching Model</a>
+</article>
+
+<!-- CTA block -->
+<section class="system-section">
+  <div class="system-cta">
+    <div>
+      <p class="eyebrow">FAST MATCHING</p>
+      <h2>Send Machine Info. Get a Matched Quote.</h2>
+      <p>Share excavator model, tonnage, jobsite condition and photos for bracket matching.</p>
+    </div>
+    <a class="system-btn system-btn-primary" href="https://wa.me/8613370928803">WhatsApp Us</a>
+  </div>
+</section>
+
+<!-- A. Product List Page -->
+<main class="products-page">
+  <section class="page-hero products-page-hero">
+    <div class="products-hero-copy">
+      <nav class="inner-breadcrumb"><a href="/">Home</a><span>/</span><span>Products</span></nav>
+      <p class="eyebrow">PRODUCT RANGE</p>
+      <h1>Excavator Attachments Product Range</h1>
+      <p>Browse model-matched tools for demolition, piling, earthmoving, recycling and foundation work.</p>
+      <div class="products-hero-actions">
+        <a class="btn primary" href="/contact/">Get Matching Model</a>
+      </div>
+    </div>
+    <aside class="products-hero-panel">
+      <span>FACTORY DIRECT</span>
+      <strong>Send model, tonnage and photos for fast matching.</strong>
+      <p>KRATOR confirms bracket size, pin dimensions, hydraulic flow and shipping options.</p>
+    </aside>
+  </section>
+</main>
+
+<!-- B. Product Detail Page -->
+<main class="pdp-main">
+  <section class="pdp-hero">
+    <div class="pdp-hero-media">
+      <div class="pdp-media-card product-media-gallery">
+        <div class="pdp-media-stage">
+          <img class="pdp-main-image" src="/images/products/featured/raw/hydraulic-breaker.webp" alt="Product name" width="900" height="900" decoding="async">
+        </div>
+      </div>
+    </div>
+    <div class="pdp-hero-copy">
+      <nav class="pdp-breadcrumb"><a href="/">Home</a><span>/</span><a href="/products/">Products</a></nav>
+      <p class="pdp-eyebrow">MODEL-MATCHED ATTACHMENT</p>
+      <h1>Product Name</h1>
+      <p class="pdp-hero-text">Short product value statement for international buyers.</p>
+      <div class="pdp-actions">
+        <a class="pdp-btn pdp-btn-primary" href="/contact/">Get Matching Model</a>
+        <a class="pdp-btn pdp-btn-outline" href="https://wa.me/8613370928803">WhatsApp Us</a>
+      </div>
+    </div>
+  </section>
+  <section class="pdp-section pdp-quick-specs"></section>
+  <section class="pdp-section"></section>
+  <section class="pdp-section pdp-fitment-section"></section>
+  <section class="pdp-section"></section>
+  <section class="pdp-section"></section>
+  <section class="pdp-section pdp-bottom-cta"></section>
+</main>
+
+<!-- C. FAQ / Blog Content Page -->
+<main class="system-main content-page-template">
+  <section class="page-hero">
+    <p class="eyebrow">BUYER RESOURCES</p>
+    <h1>FAQ and Technical Guides</h1>
+    <p>Clear buying guidance for excavator attachments, bracket matching and global shipping.</p>
+  </section>
+  <section class="section">
+    <article class="article system-card">
+      <h1>Article Title</h1>
+      <p class="lead">Lead paragraph for the guide or FAQ content.</p>
+    </article>
+  </section>
+</main>
+
+<!-- D. Application Page -->
+<main class="system-main application-page-template">
+  <section class="page-hero">
+    <p class="eyebrow">APPLICATIONS</p>
+    <h1>Attachment Solutions by Application</h1>
+    <p>Recommend attachment packages based on demolition, piling, quarry, road and utility work.</p>
+  </section>
+  <section class="section">
+    <div class="application-grid">
+      <a href="/contact/">
+        <img class="scene-img" src="/assets/images/applications/application-demolition.jpg" alt="Demolition application" width="960" height="540" decoding="async" loading="lazy">
+        <strong>Demolition</strong>
+      </a>
+    </div>
+  </section>
+</main>

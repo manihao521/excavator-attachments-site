@@ -1,28 +1,32 @@
-# KRATOR Attachments
+﻿# KRATOR Attachments
 
 Excavator Attachments for Demolition, Piling and Earthmoving
 
 This website supplies excavator attachments for overseas contractors, dealers and rental companies.
 
 ## Multilingual homepages
-- English: https://excavator-attachments.pages.dev/
-- Spanish: https://excavator-attachments.pages.dev/es/
-- French: https://excavator-attachments.pages.dev/fr/
-- Russian: https://excavator-attachments.pages.dev/ru/
-- Arabic: https://excavator-attachments.pages.dev/ar/
+- English: https://www.kratorattachments.com/
+- Spanish: https://www.kratorattachments.com/es/
+- French: https://www.kratorattachments.com/fr/
+- Russian: https://www.kratorattachments.com/ru/
+- Arabic: https://www.kratorattachments.com/ar/
 
 ## Core product pages
-- Hydraulic Breakers: https://excavator-attachments.pages.dev/products/hydraulic-breaker/
-- Quick Couplers: https://excavator-attachments.pages.dev/products/quick-hitch/
-- Hydraulic Pile Hammers: https://excavator-attachments.pages.dev/products/hydraulic-pile-hammer/
-- Demolition Shears: https://excavator-attachments.pages.dev/products/hydraulic-shear/
-- Excavator Buckets: https://excavator-attachments.pages.dev/products/excavator-buckets/
-- Hydraulic Pulverizers: https://excavator-attachments.pages.dev/products/hydraulic-pulverizer/
-- Hydraulic Compactors: https://excavator-attachments.pages.dev/products/hydraulic-compactor/
-- Grapples: https://excavator-attachments.pages.dev/products/grapples/
-- Rippers: https://excavator-attachments.pages.dev/products/rippers/
-- Vibro Hammers: https://excavator-attachments.pages.dev/products/vibro-hammers/
-- Plate Compactors: https://excavator-attachments.pages.dev/products/plate-compactors/
+- Hydraulic Breakers: https://www.kratorattachments.com/products/hydraulic-breaker/ (Side Type Hydraulic Breaker; Box Type Hydraulic Breaker; Top Type Hydraulic Breaker)
+- Quick Couplers: https://www.kratorattachments.com/products/quick-coupler/ (P Type Quick Coupler; Tilt Quick Coupler; Hydraulic Quick Coupler; Mechanical Quick Coupler)
+- Vibratory Pile Hammers: https://www.kratorattachments.com/products/vibratory-pile-hammer/ (Side Grip Vibratory Pile Hammer; Top Clamp Vibratory Pile Hammer; Excavator Mounted Pile Driver; Multi-Function Pile Driver; Sheet Pile Clamp; H-Beam Clamp; Pipe Pile Clamp; Concrete Pile Clamp; Timber Pile Clamp; Custom Jaw Solution)
+- Demolition Shears: https://www.kratorattachments.com/products/hydraulic-shear/ (Rotating Demolition Shear; Fixed Demolition Shear; Steel Cutting Shear; Scrap Shear; Double Cylinder Demolition Shear)
+- Hydraulic Pulverizers: https://www.kratorattachments.com/products/hydraulic-pulverizer/ (Fixed Pulverizer; Rotating Pulverizer; Primary Pulverizer; Secondary Pulverizer; Concrete Crusher)
+- Hydraulic Grapples: https://www.kratorattachments.com/products/grapples/ (Sorting Grapple; Demolition Grapple; Log Grapple; Orange Peel Grapple; Stone Grapple; Scrap Grapple)
+- Plate Compactors: https://www.kratorattachments.com/products/plate-compactors/ (Standard Plate Compactor; Hydraulic Plate Compactor; Tilt Plate Compactor; Heavy Duty Plate Compactor)
+- Earth Augers: https://www.kratorattachments.com/products/earth-augers/ (Excavator Earth Auger; Auger Drive Unit; Auger Drill Bits; Rock Auger; Tree Planting Auger)
+- Excavator Buckets: https://www.kratorattachments.com/products/excavator-buckets/ (Standard Bucket; Rock Bucket; Heavy Duty Bucket; Ditch Cleaning Bucket; Tilt Bucket; Skeleton Bucket; Trapezoid Bucket)
+- Excavator Rippers: https://www.kratorattachments.com/products/rippers/ (Single Shank Ripper; Heavy Duty Ripper; Rock Ripper; Frost Ripper)
+- Custom Attachments: https://www.kratorattachments.com/products/custom-attachments/ (Custom Mounting Brackets; Custom Pile Clamps; OEM / ODM Attachments; Private Label Attachments)
+
+## Technical resources
+- Hydraulic Breaker Troubleshooting Guide: https://www.kratorattachments.com/blog/hydraulic-breaker-troubleshooting-guide/ (Safe symptom recording, external checks, technician escalation and support data)
 
 ## Buyer information needed
 Please provide excavator model, carrier weight, pin diameter, arm width, center distance, working condition, quantity and destination country for a quote.
+

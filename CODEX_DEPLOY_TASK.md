@@ -1,4 +1,4 @@
-# Codex Deployment Task
+﻿# Codex Deployment Task
 
 You are deploying a static B2B inquiry website for excavator attachments and piling/demolition tools.
 
@@ -30,8 +30,8 @@ Deploy this repository to Cloudflare Pages with a production branch named `main`
    - `/`
    - `/products/`
    - `/products/hydraulic-breaker/`
-   - `/products/quick-hitch/`
-   - `/products/hydraulic-pile-hammer/`
+   - `/products/quick-coupler/`
+   - `/products/vibratory-pile-hammer/`
    - `/contact/`
    - `/sitemap.xml`
    - `/robots.txt`
@@ -56,3 +56,4 @@ Replace placeholders across the site:
 - `https://formspree.io/f/your-form-id`
 
 Then re-run deployment.
+

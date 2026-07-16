@@ -1,0 +1,4 @@
+interface:
+  display_name: "KRATOR Frontend Design System"
+  short_description: "Keep KRATOR industrial UI consistent"
+  default_prompt: "Use $05-frontend-design-system to review a KRATOR interface change for brand consistency."

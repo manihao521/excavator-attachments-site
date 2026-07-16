@@ -1,0 +1,4 @@
+interface:
+  display_name: "KRATOR Workflow Router"
+  short_description: "Route KRATOR tasks to project workflows"
+  default_prompt: "Use $krator-workflows to select the correct KRATOR project workflow for this task."

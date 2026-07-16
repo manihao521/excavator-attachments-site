@@ -1,0 +1,4 @@
+interface:
+  display_name: "KRATOR Content Cluster Builder"
+  short_description: "Plan connected B2B SEO content clusters"
+  default_prompt: "Use $09-content-cluster-builder to plan a connected KRATOR topic cluster without keyword cannibalization."

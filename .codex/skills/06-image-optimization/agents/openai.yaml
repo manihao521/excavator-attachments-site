@@ -1,0 +1,4 @@
+interface:
+  display_name: "KRATOR Image Optimization"
+  short_description: "Optimize industrial images and image SEO"
+  default_prompt: "Use $06-image-optimization to audit and optimize KRATOR website images."

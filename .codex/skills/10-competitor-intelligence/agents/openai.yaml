@@ -1,0 +1,4 @@
+interface:
+  display_name: "KRATOR Competitor Intelligence"
+  short_description: "Research ethical competitor growth opportunities"
+  default_prompt: "Use $10-competitor-intelligence to compare public competitor evidence and identify original KRATOR opportunities."

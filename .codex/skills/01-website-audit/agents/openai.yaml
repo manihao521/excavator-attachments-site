@@ -1,0 +1,4 @@
+interface:
+  display_name: "KRATOR Website Audit"
+  short_description: "Audit KRATOR SEO, links, schema, and performance"
+  default_prompt: "Use $01-website-audit to audit the KRATOR website and report prioritized findings."
